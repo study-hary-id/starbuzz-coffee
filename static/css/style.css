@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b5a789;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+/* End global rules for styling */
+
+/* Start rules for html header */
+header {
+  border-top: 0.5rem solid #efe5d0;
+  background-color: #675c47;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#header-logo {
+  margin: 10px 0 5px 15px;
+}
